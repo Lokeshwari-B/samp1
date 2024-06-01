@@ -1,0 +1,14 @@
+.container {
+
+    background-position: center;
+    background-size: cover;
+    background-color:gray;
+    max-width: 400px;
+    max-height: 1000px;
+    padding: 70px;
+    text-align: left;
+    justify-content: center;
+    border: 0dvi;
+  }
+  
+  

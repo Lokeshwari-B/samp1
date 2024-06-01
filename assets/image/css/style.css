@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+  
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size:1000px; /* Set background size to cover */
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Your existing CSS styles */
+  h2 {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"]
+  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
